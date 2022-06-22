@@ -1,0 +1,107 @@
+@media (min-width: 768px) {
+  .main-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+    height: 100vh;
+    background-size: cover;
+    padding-top: 30px;
+    padding-left: 120px;
+  }
+  .stopwatch-container {
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+  }
+}
+
+@media (max-width: 767px) {
+  .main-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .stopwatch-container {
+    width: 85vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+  }
+}
+
+.main-heading {
+  width: 330px;
+  color: #333333;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: Roboto;
+  text-align: center;
+}
+.timer-buttons-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img-timer-heading-container {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.timer-heading {
+  color: #333333;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Roboto;
+}
+.timer {
+  color: #333333;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Roboto;
+}
+.buttons-container {
+  width: 230px;
+  display: flex;
+  justify-content: space-between;
+}
+.start-btn {
+  color: #ffffff;
+  background-color: #1db05f;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 8px 18px 8px 18px;
+}
+.stop-btn {
+  color: #ffffff;
+  background-color: #ef0d36;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 8px 18px 8px 18px;
+}
+.reset-btn {
+  color: #ffffff;
+  background-color: #eaa800;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 8px 18px 8px 18px;
+}
